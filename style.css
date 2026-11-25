@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background-color: #f4f7fb;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* الشريط العلوي */
+.navbar {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar nav a {
+  color: #e2e8f0;
+  text-decoration: none;
+  margin-right: 1.2rem;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  color: #38bdf8;
+}
+
+/* القسم الترحيبي */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  border-radius: 14px;
+  margin: 2rem 0;
+}
+
+.hero h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+
+/* البطاقات والصور */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e2e8f0;
+}
+
+.card-img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+/* التذييل */
+.footer {
+  text-align: center;
+  padding: 1.2rem;
+  background-color: #e2e8f0;
+  color: #475569;
+  font-size: 0.9rem;
+}
